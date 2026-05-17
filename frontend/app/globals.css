@@ -982,3 +982,161 @@ a {
 .auth-modal .form-label {
   color: var(--text-secondary);
 }
+
+/* ==================== Mobile Responsive ==================== */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .navbar-inner {
+    padding: 0 16px;
+    gap: 8px;
+  }
+
+  .navbar-brand {
+    font-size: 1.05rem;
+    gap: 8px;
+  }
+
+  .navbar-brand-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  .navbar-links {
+    gap: 4px;
+  }
+
+  .navbar-link {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+
+  .navbar-user {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .navbar-logout {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+
+  .page-header {
+    padding: 32px 0 24px;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .stats-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .stat-card {
+    min-width: unset;
+    padding: 12px 16px;
+  }
+
+  .stat-value {
+    font-size: 1.25rem;
+  }
+
+  .filters-bar {
+    gap: 8px;
+  }
+
+  .search-wrapper {
+    min-width: 100%;
+  }
+
+  .search-input {
+    min-width: unset;
+    width: 100%;
+  }
+
+  .jobs-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-meta {
+    gap: 10px;
+  }
+
+  .job-detail-card {
+    padding: 24px;
+  }
+
+  .job-detail-title {
+    font-size: 1.3rem;
+  }
+
+  .form-card {
+    padding: 24px;
+  }
+
+  .toast {
+    right: 16px;
+    left: 16px;
+    max-width: unset;
+  }
+
+  .auth-modal {
+    padding: 28px 20px 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-brand span {
+    display: none;
+  }
+
+  .navbar-link {
+    padding: 6px 8px;
+    font-size: 0.75rem;
+  }
+
+  .stats-bar {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .stat-card {
+    padding: 10px 12px;
+  }
+
+  .stat-value {
+    font-size: 1.1rem;
+  }
+
+  .stat-label {
+    font-size: 0.65rem;
+  }
+
+  .page-title {
+    font-size: 1.3rem;
+  }
+}
+
