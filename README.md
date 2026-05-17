@@ -4,7 +4,7 @@ A full-stack web application where homeowners can post service requests (e.g. pl
 
 Built for the **GlobalTNA Full-Stack Developer Intern Technical Assessment**.
 
-🔗 **Live Demo:** [https://fullstack-assessment-orcin.vercel.app](https://fullstack-assessment-orcin.vercel.app)
+🔗 **Live Demo:** [https://fullstack-assessment2.app](https://fullstack-assessment2.vercel.app/)
 
 ## Tech Stack
 
